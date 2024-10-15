@@ -1,0 +1,8 @@
+In Task 8.4 I made it so that monsters or npc that have fainted/are unconscious are removed from the game. To bring back npcs and monsters, the user will need to use the "Respawn all" button.
+Another feature I did was I made it so the program closes when the adventurer has fainted.
+
+Issue fixed:
+An issue which was when you press start moving, it repeatedly displayed the npc or monster as moving although their location hadn't changed. 
+
+Issue fixed to make the gameplay slightly better:
+I also fixed an issue where if the monster went to the adventurer and was at the same location, no battle was called. Now once the monster is awake and is at the same location as the adventurer, the monster and adventurer will battle after a short wait.
